@@ -81,7 +81,7 @@ function App() {
           <Button value={"="} setvalue={setvalue} />
         </div>
         <div className="history">
-          <h2>hello</h2>
+          <h2>history</h2>
           {Object.entries(history).map((todo) => {
             return todo.map((item, index) => {
               return <li key={index}>{item}</li>;
